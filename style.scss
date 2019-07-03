@@ -192,11 +192,74 @@ header {
 		}
 
 		.p-parent {
-			text-align-last: left;
+			text-align: start;
 			p {
+				font-size: 16px;
+				color: #000000;
 				padding: 0 0 10px 0;
 			}
 		}
+	}
+
+}
+
+
+/* ----プロフィール部分---- */
+
+
+.prof {
+	background-color: #eceff1;
+
+	.prof-wrap {
+		width: 90%;
+		margin: 0 auto;
+		text-align: center;
+
+		h2 {
+			font-size: 32px;
+			color: #000000;
+			padding: 90px 0 0 0;
+		}
+
+		.line-parent{
+			font-size: 0; /*lineのinline-blockの隙間を消す*/
+
+			.line {
+				display: inline-block;
+				height: 3px;
+				width: 70px;
+				background-color: #EC715F;
+				margin: 8px 0 0 0;
+			}
+		}
+
+		.prof-description {
+			font-size: 16px;
+			color: #000000;
+			padding: 30px 0;
+		}
+
+		img {
+			border-radius: 50%;
+		}
+
+		h3 {
+			font-size: 20px;
+			color: #000000;
+			padding: 20px 0 5px 0;
+		}
+
+		p {
+			font-size: 16px;
+			color: #000000;
+		}
+
+		.ms-description {
+			font-size: 16px;
+			color: #000000;
+			padding: 0 0 90px 0;
+		}
+
 	}
 
 }
