@@ -300,3 +300,16 @@ header .h-wrap .burger-menu .fa-bars {
 .contact .con-wrap i:nth-of-type(3) {
   padding-right: 0;
 }
+
+/* ----フッター部分---- */
+footer {
+  background-color: #EC715F;
+  height: 60px;
+  text-align: center;
+}
+
+footer p {
+  line-height: 60px;
+  color: #fafafa;
+  font-size: 16px;
+}
