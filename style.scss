@@ -146,3 +146,57 @@ header {
 
 	}
 }
+
+
+/* ----フィーチャー部分---- */
+
+
+.features {
+	.feat-wrap {
+		width: 90%;
+		margin: 0 auto;
+		text-align: center;
+
+		h2 {
+			font-size: 32px;
+			color: #000000;
+			padding: 90px 0 0 0;
+		}
+
+		.line-parent{
+			font-size: 0; /*lineのinline-blockの隙間を消す*/
+
+			.line {
+				display: inline-block;
+				height: 3px;
+				width: 70px;
+				background-color: #EC715F;
+				margin: 8px 0 0 0;
+			}
+		}
+
+		.feat-description {
+			font-size: 16px;
+			color: #000000;
+			padding: 30px 0;
+		}
+
+		.feat-icon {
+			font-size: 60px;
+		}
+
+		h3 {
+			font-size: 20px;
+			color: #000000;
+			padding: 10px 0;
+		}
+
+		.p-parent {
+			text-align-last: left;
+			p {
+				padding: 0 0 10px 0;
+			}
+		}
+	}
+
+}
