@@ -79,7 +79,7 @@ header {
 	// background-color: rgba(158, 68, 131, 0.562);
 	text-align: center;
 
-	h1 {
+	h2 {
 		font-size: 40px;
 		color: #fafafa;
 		padding: 200px 0 10px 0;
@@ -91,3 +91,60 @@ header {
 	}
 }
 
+
+
+/* ----ポートフォリオ部分---- */
+
+
+.portfolio {
+	background-color: #ECEFF1;
+
+	.pf-wrap {
+		width: 90%;
+		margin: 0 auto;
+		text-align: center;
+
+		h2 {
+			font-size: 32px;
+			color: #000;
+			padding: 90px 0 0 0;
+		}
+
+		.line-parent{
+			font-size: 0; /*lineのinline-blockの隙間を消す*/
+
+			.line {
+				display: inline-block;
+				height: 3px;
+				width: 70px;
+				background-color: #EC715F;
+				margin: 8px 0 0 0;
+			}
+		}
+
+		p {
+			font-size: 16px;
+			color: #000000;
+			padding: 30px 0;
+		}
+
+		.img-parent{
+			font-size: 0; /*imgのinline-blockの隙間を消す*/
+
+			img {
+				width: 300px;
+				height: 250px;
+				margin: 0 0 10px 0;
+			}
+
+			img:nth-of-type(odd) {
+				display: none;
+			}
+
+			img:last-child {
+				margin: 0 0 90px 0;
+			}
+		}
+
+	}
+}
