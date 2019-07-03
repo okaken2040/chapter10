@@ -1,2 +1,57 @@
 @charset "UTF-8";
 
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+header {
+	background-color: #EC715F;
+	height: 50px;
+}
+
+.wrapper {
+	width: 90%;
+	height: 100%;
+	/* border: 1px solid #000; */
+	margin: 0 auto;
+	position: relative;
+}
+
+.logo {
+	height: 100%;
+}
+
+.logo-link {
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100px;
+	/* background-color: rgba(255, 251, 0, 0.425); */
+}
+
+.burger-menu {
+	display: inline-block;
+	float: right;
+	width: 40px;
+	height: 40px;
+	margin: 5px 0;
+	border: 1px solid #fff;
+}
+
+.fa-bars {
+	color: #fff;
+	font-size: 30px;
+	line-height: 38px;
+	text-align: center;
+	width: 100%;
+}
