@@ -17,7 +17,7 @@ header {
   height: 50px;
 }
 
-.h-wrap {
+header .h-wrap {
   width: 90%;
   height: 100%;
   /* border: 1px solid #000; */
@@ -25,11 +25,11 @@ header {
   position: relative;
 }
 
-.logo {
+header .h-wrap .logo {
   height: 100%;
 }
 
-.logo-link {
+header .h-wrap .logo-link {
   display: inline-block;
   position: absolute;
   top: 0;
@@ -39,7 +39,7 @@ header {
   /* background-color: rgba(255, 251, 0, 0.425); */
 }
 
-.burger-menu {
+header .h-wrap .burger-menu {
   display: inline-block;
   float: right;
   width: 40px;
@@ -48,7 +48,7 @@ header {
   border: 1px solid #fff;
 }
 
-.fa-bars {
+header .h-wrap .burger-menu .fa-bars {
   color: #fff;
   font-size: 30px;
   line-height: 38px;
@@ -64,20 +64,20 @@ header {
   background-size: cover;
 }
 
-.mv-wrap {
+.main-visual .mv-wrap {
   width: 90%;
   height: 100%;
   margin: 0 auto;
   text-align: center;
 }
 
-.mv-wrap h2 {
+.main-visual .mv-wrap h2 {
   font-size: 40px;
   color: #fafafa;
   padding: 200px 0 10px 0;
 }
 
-.mv-wrap p {
+.main-visual .mv-wrap p {
   font-size: 18px;
   color: #fafafa;
 }

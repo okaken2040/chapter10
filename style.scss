@@ -20,47 +20,46 @@
 header {
 	background-color: #EC715F;
 	height: 50px;
-}
 
-.h-wrap {
-	width: 90%;
-	height: 100%;
-	/* border: 1px solid #000; */
-	margin: 0 auto;
-	position: relative;
-}
+	.h-wrap {
+		width: 90%;
+		height: 100%;
+		/* border: 1px solid #000; */
+		margin: 0 auto;
+		position: relative;
 
-.logo {
-	height: 100%;
-}
+		.logo {
+			height: 100%;
+		}
 
-.logo-link {
-	display: inline-block;
-	position: absolute;
-	top: 0;
-	left: 0;
-	height: 100%;
-	width: 100px;
-	/* background-color: rgba(255, 251, 0, 0.425); */
-}
+		.logo-link {
+			display: inline-block;
+			position: absolute;
+			top: 0;
+			left: 0;
+			height: 100%;
+			width: 100px;
+			/* background-color: rgba(255, 251, 0, 0.425); */
+		}
 
-.burger-menu {
-	display: inline-block;
-	float: right;
-	width: 40px;
-	height: 40px;
-	margin: 5px 0;
-	border: 1px solid #fff;
-}
+		.burger-menu {
+			display: inline-block;
+			float: right;
+			width: 40px;
+			height: 40px;
+			margin: 5px 0;
+			border: 1px solid #fff;
 
-.fa-bars {
-	color: #fff;
-	font-size: 30px;
-	line-height: 38px;
-	text-align: center;
-	width: 100%;
+			.fa-bars {
+				color: #fff;
+				font-size: 30px;
+				line-height: 38px;
+				text-align: center;
+				width: 100%;
+			}
+		}
+	}
 }
-
 
 /* ----メインビジュアル部分---- */
 
@@ -70,28 +69,27 @@ header {
 	background-image: url(img/code.png);
 	background-position: center;
 	background-size: cover;
-}
 
-.mv-wrap {
-	width: 90%;
-	height: 100%;
-	margin: 0 auto;
-	// background-color: rgba(158, 68, 131, 0.562);
-	text-align: center;
+	.mv-wrap {
+		width: 90%;
+		height: 100%;
+		margin: 0 auto;
+		// background-color: rgba(158, 68, 131, 0.562);
+		text-align: center;
 
-	h2 {
-		font-size: 40px;
-		color: #fafafa;
-		padding: 200px 0 10px 0;
+		h2 {
+			font-size: 40px;
+			color: #fafafa;
+			padding: 200px 0 10px 0;
+		}
+
+		p {
+			font-size: 18px;
+			color: #fafafa;
+		}
 	}
 
-	p {
-		font-size: 18px;
-		color: #fafafa;
-	}
 }
-
-
 
 /* ----ポートフォリオ部分---- */
 
